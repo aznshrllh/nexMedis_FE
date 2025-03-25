@@ -221,6 +221,7 @@ npm run dev
 
 ## Project Structure
 
+```json
 FE-NexMedis/
 ├── public/
 ├── src/
@@ -239,6 +240,7 @@ FE-NexMedis/
 │ ├── App.tsx # Main application component
 │ └── main.tsx # Entry point
 └── package.json
+```
 
 ## User Management Features
 
