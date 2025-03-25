@@ -9,6 +9,31 @@ Development period: March 25, 2025 - March 26, 2025
 
 NexMedis is a modern healthcare management system frontend built with React, TypeScript, and Vite. This application demonstrates integration with RESTful APIs, modern UI design patterns, and responsive user interfaces for healthcare professionals.
 
+## Installation
+
+Follow these steps to set up the project locally:
+
+```bash
+# Clone the repository (replace with your repo URL)
+git clone https://github.com/yourusername/nexmedis-fe.git
+
+# Navigate to the project directory
+cd nexMedis/FE/nexMedis_FE/FE-NexMedis
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+## Authentication Testing
+
+For testing purposes, you can use:
+
+- Email: eve.holt@reqres.in
+- Password: cityslicka
+
 ## Features
 
 - **User Management Dashboard**
@@ -208,24 +233,6 @@ Response:
 }
 ```
 
-## Installation
-
-Follow these steps to set up the project locally:
-
-```bash
-# Clone the repository (replace with your repo URL)
-git clone https://github.com/yourusername/nexmedis-fe.git
-
-# Navigate to the project directory
-cd nexMedis/FE/nexMedis_FE/FE-NexMedis
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
 ## Project Structure
 
 ```
@@ -332,13 +339,6 @@ This application uses the ReqRes.in demo API which simulates real API behavior b
 4. It's perfect for frontend demos without needing a backend
 
 This makes it ideal for demonstrating frontend functionality without setting up a real backend server.
-
-## Authentication Testing
-
-For testing purposes, you can use:
-
-- Email: eve.holt@reqres.in
-- Password: cityslicka
 
 ---
 
