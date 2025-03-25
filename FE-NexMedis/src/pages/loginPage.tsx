@@ -68,7 +68,7 @@ export default function LoginPage() {
 
       // Redirect to dashboard after a short delay
       setTimeout(() => {
-        navigate("/dashboard");
+        navigate("/");
       }, 1000);
     } catch (error) {
       console.error("Login error:", error);
@@ -100,7 +100,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="flex min-h-screen w-full items-center justify-center bg-gray-50 px-4 py-12">
+    <div className="flex min-h-screen w-full items-center justify-center bg-background px-4 py-12">
       <Toaster position="top-center" richColors />
 
       <Card className="w-full max-w-md">
