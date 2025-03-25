@@ -5,6 +5,8 @@ import RegisterPage from "./pages/registerPage";
 import MainPage from "./pages/mainPage";
 import HomePage from "./pages/homePage";
 import RootLayout from "./layouts/RootLayout";
+import SettingPage from "./pages/settingPage";
+import ProfilePage from "./pages/profilePage";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
           {
             path: "",
             element: React.createElement(HomePage),
+          },
+          {
+            path: "/profile",
+            element: React.createElement(ProfilePage),
+          },
+          {
+            path: "/settings",
+            element: React.createElement(SettingPage),
           },
         ],
       },
