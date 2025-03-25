@@ -10,7 +10,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Home, User, LogOut, Menu, X } from "lucide-react";
+import { Home, User, LogOut, Menu, X, Settings } from "lucide-react";
 
 export default function Navbar() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -157,6 +157,17 @@ export default function Navbar() {
                   <Link to="/profile">
                     <User className="h-4 w-4 mr-2" />
                     Profile
+                  </Link>
+                </Button>
+
+                <Button
+                  variant="ghost"
+                  className="w-full justify-start"
+                  asChild
+                >
+                  <Link to="/settings">
+                    <Settings className="h-4 w-4 mr-2" />
+                    Settings
                   </Link>
                 </Button>
 
