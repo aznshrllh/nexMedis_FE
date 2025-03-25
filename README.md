@@ -221,7 +221,7 @@ npm run dev
 
 ## Project Structure
 
-```json
+```
 FE-NexMedis/
 ├── public/
 ├── src/
