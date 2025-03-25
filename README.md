@@ -1,5 +1,10 @@
 # NexMedis Frontend
 
+## Author
+
+This project was developed by **Ahmad Zaki Nashirullah**  
+Development period: March 25, 2025 - March 26, 2025
+
 ## Overview
 
 NexMedis is a modern healthcare management system frontend built with React, TypeScript, and Vite. This application demonstrates integration with RESTful APIs, modern UI design patterns, and responsive user interfaces for healthcare professionals.
@@ -59,7 +64,9 @@ This project uses the [ReqRes](https://reqres.in/) API for demonstration. Here a
 
 ### GET USERS
 
+```
 GET /api/users?page={page}
+```
 
 Response:
 
@@ -97,7 +104,7 @@ Response:
 
 ### CREATE USER
 
-```json
+```
 POST /api/users
 ```
 
@@ -123,7 +130,7 @@ Response:
 
 ### UPDATE User
 
-```json
+```
 PUT /api/users/{id}
 ```
 
@@ -148,7 +155,7 @@ Response:
 
 ### DELETE User
 
-```json
+```
 DELETE /api/users/{id}
 ```
 
@@ -156,7 +163,7 @@ Response: 204 No Content
 
 ### LOGIN
 
-```json
+```
 POST /api/login
 ```
 
@@ -179,7 +186,7 @@ Response:
 
 ### REGISTER
 
-```json
+```
 POST /api/register
 ```
 
